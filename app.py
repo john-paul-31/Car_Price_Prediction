@@ -33,7 +33,7 @@ st.set_page_config("layout = 'wide") #Setting the layout of the webpage
 st.title("Car Price Prediction") #Setting the Title for the webpage
 
 from PIL import Image
-image = Image.open('LaFerrari.jpg')
+image = Image.open('./LaFerrari.jpg')
 
 st.image(image, caption='LaFerrari Spider')
 
